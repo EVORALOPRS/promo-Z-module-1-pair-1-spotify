@@ -1,0 +1,30 @@
+@import 'core/variables';
+@import 'core/reset';
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    background-color: black; 
+     position: sticky;
+     left: 0;
+     top: 0;
+}
+.icono {
+    height: 10px;
+    width: 10px;
+    position: fixed;
+    right: 0;
+ 
+}
+.logo {
+    height: 10px;
+    height: 10px;
+}
+.principal{
+    
+    background-color: aqua;
+}
