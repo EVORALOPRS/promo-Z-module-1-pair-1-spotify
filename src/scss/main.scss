@@ -18,13 +18,21 @@
     width: 10px;
     position: fixed;
     right: 0;
- 
-}
+ }
 .logo {
-    height: 10px;
-    height: 10px;
+    width: 50px;
+}
+.logo-spoti{
+    width: 100px;
 }
 .principal{
-    
     background-color: aqua;
+}
+.list{
+    color: white;
+     display: none;
+    
+@media (min-width:780px) { 
+    display:flex;
+}
 }
